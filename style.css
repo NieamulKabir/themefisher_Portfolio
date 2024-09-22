@@ -1,0 +1,21 @@
+/* Inside style.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Apply DM Sans font globally to the body */
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  also style specific elements */
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400; /* Regular weight */
+}
