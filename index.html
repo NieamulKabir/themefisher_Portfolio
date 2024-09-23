@@ -6,6 +6,12 @@
     <title>Daryl Smith - UI/UX Designer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
@@ -332,8 +338,77 @@
         </div>
       </section>
     </div>
+    <!-- portfolio  -->
+    <section class="mx-4 md:ml-[520px] md:mr-[127px] mb-[120px]">
+      <h1 class="text-5xl font-bold mb-10">Portfolio</h1>
 
+      <nav class="mb-6">
+        <ul
+          class="md:flex space-x-4 bg-[#000] justify-between px-4 md:px-[61px] text-base pt-5 pb-6 rounded-lg box-shadow"
+        >
+          <li class="text-orange-500 border-b-2 md:border-b-4 border-orange-500 pb-1 ml-4">All</li>
+          <li>Graphic Design</li>
+          <li>Mobile App</li>
+          <li>Photography</li>
+          <li>UI/UX Design</li>
+        </ul>
+      </nav>
 
-    
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- left div image  -->
+        <div>
+          <div class="mb-6">
+            <img
+              src="image/home_decorator.png"
+              alt="home_decorator"
+              class="w-full h-[321px]"
+            />
+          </div>
+
+          <div class="mb-6">
+            <img
+              src="image/mobile.png"
+              alt="Mobile image"
+              class="w-full h-[447px]"
+            />
+          </div>
+          <div class="">
+            <img
+              src="image/mockup.png"
+              alt="mockup image"
+              class="w-full h-[204px]"
+            />
+          </div>
+        </div>
+        <!-- right div  -->
+        <div>
+          <div class="mb-6">
+            <img
+              src="image/shopping.png"
+              alt="shopping beg image"
+              class="w-full h-[248px]"
+            />
+          </div>
+
+          <div class="mb-6">
+            <img
+              src="image/watch.png"
+              alt="watch image"
+              class="w-full h-[220px]"
+            />
+          </div>
+          <div class="mb-6">
+            <img src="image/mug.png" alt="mug image" class="w-full h-[220px]" />
+          </div>
+          <div class="">
+            <img
+              src="image/home_decorator.png"
+              alt="mug image"
+              class="w-full h-[260px]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
