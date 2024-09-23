@@ -1,25 +1,65 @@
 /* Inside style.css */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 /* Apply DM Sans font globally to the body */
 body {
-    font-family: 'DM Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*  also style specific elements */
 h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700; /* Bold */
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700; /* Bold */
 }
 
 p {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400; /* Regular weight */
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; /* Regular weight */
 }
 
 .box-shadow {
-    box-shadow: 0px 0px 25px 10px rgba(255, 255, 255, 0.06)
+  box-shadow: 0px 0px 25px 10px rgba(255, 255, 255, 0.06);
+}
+.pricing-tag {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 50px 50px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 189, 77, 0.3) 0.36%,
+    rgba(248, 146, 34, 0.3) 99.88%
+  );
+}
+.pricing-btn {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #f5bd4d;
+}
+.pricing-btn:hover {
+  background: linear-gradient(90deg, #f5bd4d 0.36%, #f89222 99.88%);
+}
+
+.form-input {
+  border-radius: 10px;
+  border: 1px solid #f5bd4d;
+
+  background: #000;
+}
+.form-btn{
+   
+    height: 48px;
+    margin-top: 32px;
+    flex-shrink: 0; 
+    border-radius: 10px;
+background: linear-gradient(90deg, #F5BD4D 0.36%, #F89222 99.88%);
 }

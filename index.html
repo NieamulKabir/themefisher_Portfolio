@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="min-h-screen">
+  <body class="min-h-screen max-w-[1320px] mx-auto">
     <!-- Header section -->
     <header class="flex bg-[#121414] px-4 md:px-[80px]">
       <div class="md:w-[33%] flex justify-between">
@@ -129,7 +129,7 @@
       </div>
     </section>
     <!-- resume  -->
-    <div class="mx-4 md:ml-[520px] md:mr-[127px] mb-[120px]">
+    <div class="mx-4 md:ml-[460px] mb-[120px]">
       <h1 class="text-5xl font-bold mb-8 text-white mt-[64px]">Resume</h1>
       <!-- Education  -->
       <section class="mb-12">
@@ -339,14 +339,18 @@
       </section>
     </div>
     <!-- portfolio  -->
-    <section class="mx-4 md:ml-[520px] md:mr-[127px] mb-[120px]">
+    <section class="mx-4 md:ml-[460px] mb-[120px]">
       <h1 class="text-5xl font-bold mb-10">Portfolio</h1>
 
       <nav class="mb-6">
         <ul
           class="md:flex space-x-4 bg-[#000] justify-between px-4 md:px-[61px] text-base pt-5 pb-6 rounded-lg box-shadow"
         >
-          <li class="text-orange-500 border-b-2 md:border-b-4 border-orange-500 pb-1 ml-4">All</li>
+          <li
+            class="text-orange-500 border-b-2 md:border-b-4 border-orange-500 pb-1 ml-4"
+          >
+            All
+          </li>
           <li>Graphic Design</li>
           <li>Mobile App</li>
           <li>Photography</li>
@@ -409,6 +413,227 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- blog  -->
+    <section class="mx-4 md:ml-[460px] mb-[120px]">
+      <h1 class="text-5xl font-bold mb-10">Blog</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="w-[332px] bg-[#000000] rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog1.png"
+              alt="blog1"
+              class="w-[332px] h-[320px]"
+            />
+          </figure>
+          <div class="card-body">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6 mb-8">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[332px] bg-[#000000] rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog2.png"
+              alt="blog2"
+              class="w-[332px] h-[240px]"
+            />
+          </figure>
+          <div class="card-body w-[332px] h-[246px]">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing  -->
+
+    <section class="mx-4 md:ml-[460px] mb-[120px]">
+      <h1 class="text-5xl font-bold mb-10">Pricing</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Intro Plan -->
+        <div class="bg-black overflow-hidden">
+          <div class="pt-12">
+            <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">Intro</h2>
+            <p class="text-5xl font-bold mb-2 ml-6">
+              $29<span class="text-lg font-normal">/month</span>
+            </p>
+            <ul
+              class="space-y-2 mb-6 text-base bg-[#121414] px-4 py-6 mt-8 mx-6"
+            >
+              <li>Interface Design</li>
+              <li>Front-end Code</li>
+              <li>Back-end Development</li>
+              <li class="text-[#979797]">
+                <del>Search Engine Optimization</del>
+              </li>
+              <li class="text-[#979797]"><del>Awesome Support</del></li>
+              <li class="text-[#979797]"><del>Responsive site</del></li>
+              <li class="text-[#979797]"><del>Easy in use</del></li>
+              <li class="text-[#979797]"><del>Useful site</del></li>
+              <li class="text-[#979797]"><del>Speedy web</del></li>
+            </ul>
+            <button class="pricing-btn ml-6 mb-12">Get Started</button>
+          </div>
+        </div>
+
+        <!-- Base Plan -->
+        <div class="bg-black overflow-hidden">
+          <div class="pt-12">
+            <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">Base</h2>
+            <p class="text-5xl font-bold mb-2 ml-6">
+              $49 <span class="text-lg font-normal">/month</span>
+            </p>
+            <ul
+              class="space-y-2 mb-6 text-base bg-[#121414] px-4 py-6 mt-8 mx-6"
+            >
+              <li>Interface Design</li>
+              <li>Front-end Code</li>
+              <li>Back-end Development</li>
+              <li>Search Engine Optimization></li>
+              <li class="text-[#979797]"><del>Awesome Support</del></li>
+              <li>Responsive site</li>
+              <li class="text-[#979797]"><del>Easy in use</del></li>
+              <li class="text-[#979797]"><del>Useful site</del></li>
+              <li class="text-[#979797]"><del>Speedy web</del></li>
+            </ul>
+            <button class="pricing-btn ml-6 mb-12">Get Started</button>
+          </div>
+        </div>
+
+        <!-- Popular Plan -->
+        <div class="bg-black overflow-hidden">
+          <div class="pt-12">
+            <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">
+              Popular
+            </h2>
+            <p class="text-5xl font-bold mb-2 ml-6">
+              $99 <span class="text-lg font-normal">/month</span>
+            </p>
+            <ul
+              class="space-y-2 mb-6 text-base bg-[#121414] px-4 py-6 mt-8 mx-6"
+            >
+              <li>Interface Design</li>
+              <li>Front-end Code</li>
+              <li>Back-end Development</li>
+              <li>Search Engine Optimization></li>
+              <li>Awesome Support</li>
+              <li>Responsive site</li>
+              <li class="text-[#979797]"><del>Easy in use</del></li>
+              <li class="text-[#979797]"><del>Useful site</del></li>
+              <li class="text-[#979797]"><del>Speedy web</del></li>
+            </ul>
+            <button class="pricing-btn ml-6 mb-12">Get Started</button>
+          </div>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="bg-black overflow-hidden">
+          <div class="pt-12">
+            <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">
+              Enterprise
+            </h2>
+            <p class="text-5xl font-bold mb-2 ml-6">
+              $199 <span class="text-lg font-normal">/month</span>
+            </p>
+            <ul
+              class="space-y-2 mb-6 text-base bg-[#121414] px-4 py-6 mt-8 mx-6"
+            >
+              <li>Interface Design</li>
+              <li>Front-end Code</li>
+              <li>Back-end Development</li>
+              <li>Search Engine Optimization></li>
+              <li>Awesome Support</li>
+              <li>Responsive site</li>
+              <li>Easy in use</li>
+              <li>Useful site</li>
+              <li>Speedy web</li>
+            </ul>
+            <button class="pricing-btn ml-6 mb-12">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+    <section class="mx-4 md:ml-[460px] mb-[120px]">
+      <h1 class="text-5xl font-bold mb-10">Contact</h1>
+      <form>
+        <div class="flex ">
+          <label class="form-control w-full max-w-xs mr-6">
+            <div class="label">
+              <span class="label-text text-white">First name*</span>
+            </div>
+            <input
+              type="text"
+              class="input input-bordered w-full max-w-xs form-input"
+            />
+          </label>
+          <label class="form-control w-full max-w-xs">
+            <div class="label">
+              <span class="label-text text-white">Last name*</span>
+            </div>
+            <input
+              type="text"
+              class="input input-bordered w-full max-w-xs form-input"
+            />
+          </label>
+        </div>
+        <div class="flex mt-8">
+          <label class="form-control w-full max-w-xs mr-6">
+            <div class="label">
+              <span class="label-text text-white">Email*</span>
+            </div>
+            <input
+              type="text"
+              class="input input-bordered w-full max-w-xs form-input"
+            />
+          </label>
+          <label class="form-control w-full max-w-xs">
+            <div class="label">
+              <span class="label-text text-white">Phone*</span>
+            </div>
+            <input
+              type="text"
+              class="input input-bordered w-full max-w-xs form-input"
+            />
+          </label>
+        </div>
+
+        <div class="flex mt-8"></div>
+          <label class="form-control w-full max-w-2xl mr-6">
+            <div class="label">
+              <span class="label-text text-white">Message*</span>
+            </div>
+
+            <textarea class="textarea textarea-bordered form-input" placeholder="Bio"></textarea>
+            
+          </label>
+          
+        </div>
+        <button class="form-btn w-full md:w-[680px]">Send Message</button>
+      </form>
     </section>
   </body>
 </html>
