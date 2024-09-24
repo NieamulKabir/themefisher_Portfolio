@@ -27,7 +27,7 @@
           </h1>
           <p class="text-gray-400 mb-6">UI/UX designer</p>
         </div>
-        <div class="w-[1px] h-full bg-[#353535] md:mr-20"></div>
+        <div class="w-[1px] h-full bg-[#353535] md:mr-12"></div>
       </div>
 
       <div class="md:w-[67%] flex justify-between items-center space-x-4">
@@ -361,12 +361,20 @@
       <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- left div image  -->
         <div>
-          <div class="mb-6">
+          <div class="mb-6 main_card">
             <img
               src="image/home_decorator.png"
               alt="home_decorator"
-              class="w-full h-[321px]"
+              class="w-full h-[321px] card_img"
             />
+
+            <div class="card_body">
+              <button class="btn">
+                <i class="fa-solid fa-link h-4 w-4"></i>
+              </button>
+              <h1 class="text-[20px]">Figma Mockup</h1>
+              <p class="text-[#AFAFAF]">Figma mockup PSD editable</p>
+            </div>
           </div>
 
           <div class="mb-6">
@@ -418,13 +426,13 @@
     <!-- blog  -->
     <section class="mx-4 md:ml-[460px] mb-[120px]">
       <h1 class="text-5xl font-bold mb-10">Blog</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="w-[332px] bg-[#000000] rounded-none">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card bg-[#000000] rounded-none">
           <figure>
             <img
               src="image/blog/blog1.png"
               alt="blog1"
-              class="w-[332px] h-[320px]"
+              class="w-full h-[320px]"
             />
           </figure>
           <div class="card-body">
@@ -442,12 +450,103 @@
           </div>
         </div>
 
-        <div class="w-[332px] bg-[#000000] rounded-none">
+        <div class="card bg-[#000000] pb-10 rounded-none">
           <figure>
             <img
               src="image/blog/blog2.png"
               alt="blog2"
-              class="w-[332px] h-[240px]"
+              class="w-full h-[240px]"
+            />
+          </figure>
+          <div class="card-body w-[332px] h-[246px]">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[#000000] pb-10 rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog3.png"
+              alt="blog3"
+              class="w-full h-[320px]"
+            />
+          </figure>
+          <div class="card-body w-[332px] h-[246px]">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[#000000] pb-10 rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog4.png"
+              alt="blog4"
+              class="w-full h-[220px]"
+            />
+          </figure>
+          <div class="card-body w-[332px] h-[246px]">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[#000000] pb-10 rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog5.png"
+              alt="blog5"
+              class="w-full h-[220px]"
+            />
+          </figure>
+          <div class="card-body w-[332px] h-[246px]">
+            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+            <h2 class="card-title">
+              The artist vocation is to send light into the human heart
+            </h2>
+            <p class="text-[#979797] text-sm">
+              Lorem Ipsum is simply dummy text the printing typesetting
+              industry. Lorem Ipsum has been...
+            </p>
+            <div class="divider divider-warning text-sm w-[80%] mt-6">
+              Posted By Daryl Smith
+            </div>
+          </div>
+        </div>
+        <div class="card bg-[#000000] pb-10 rounded-none">
+          <figure>
+            <img
+              src="image/blog/blog6.png"
+              alt="blog65"
+              class="w-full h-[220px]"
             />
           </figure>
           <div class="card-body w-[332px] h-[246px]">
@@ -580,7 +679,7 @@
     <section class="mx-4 md:ml-[460px] mb-[120px]">
       <h1 class="text-5xl font-bold mb-10">Contact</h1>
       <form>
-        <div class="flex ">
+        <div class="flex">
           <label class="form-control w-full max-w-xs mr-6">
             <div class="label">
               <span class="label-text text-white">First name*</span>
@@ -621,17 +720,16 @@
           </label>
         </div>
 
-        <div class="flex mt-8"></div>
+        <div class="flex mt-8">
           <label class="form-control w-full max-w-2xl mr-6">
             <div class="label">
               <span class="label-text text-white">Message*</span>
             </div>
 
-            <textarea class="textarea textarea-bordered form-input" placeholder="Bio"></textarea>
-            
+            <textarea class="textarea textarea-bordered form-input"></textarea>
           </label>
-          
         </div>
+
         <button class="form-btn w-full md:w-[680px]">Send Message</button>
       </form>
     </section>
