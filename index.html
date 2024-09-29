@@ -31,14 +31,14 @@
       </div>
 
       <div class="md:w-[67%] flex justify-between items-center space-x-4">
-        <div class="ml-10">
+        <div class="md:ml-10 ml-2 flex items-center cursor-pointer">
           <i
             class="fa-solid p-2 rounded-lg md:text-2xl fa-house-chimney bg-gradient-to-r from-[#F5BD4D] to-[#F89222]"
           ></i>
-          <span class="md:text-2xl font-bold md:ml-4">Home</span>
+          <p class="md:text-2xl font-bold ml-2 md:ml-4">Home</p>
         </div>
         <button
-          class="text-sm md:text-base text-orange-400 px-1 md:px-4 py-2 rounded-full border border-orange-400"
+          class="text-sm md:text-base text-orange-400 px-1 md:px-4 py-2 rounded-full border border-orange-400 hover:border-white hover:bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:text-white"
         >
           Talk To Me
         </button>
@@ -137,12 +137,15 @@
           Passionate about building world class web applications. One of my
           sites received a 2020 Webby for Best Navigation and Structure.
         </p>
-        <button
-          class="bg-gradient-to-r from-[#F5BD4D] to-[#F89222] text-black px-6 py-3 rounded-full flex items-center space-x-2 text-white text-[16px]"
-        >
-          <span>Download CV</span>
-          <i class="fas fa-download"></i>
-        </button>
+
+        <a href="assets/resume.pdf" download>
+          <button
+            class="bg-gradient-to-r from-[#F5BD4D] to-[#F89222] px-6 py-3 rounded-full flex items-center space-x-2 text-white text-[16px]"
+          >
+            <span>Download CV</span>
+            <i class="fas fa-download"></i>
+          </button>
+        </a>
       </div>
     </section>
     <!-- resume  -->
@@ -256,10 +259,9 @@
               <hr class="border-gray-500" />
               <p class="mt-2 text-base">
                 UI/UX design focuses on creating user-friendly and visually
-                appealing digital experiences.UI involves the
-                layout and look of a product, while UX ensures
-                that the product is intuitive,and efficient for
-                users.
+                appealing digital experiences.UI involves the layout and look of
+                a product, while UX ensures that the product is intuitive,and
+                efficient for users.
               </p>
             </div>
 
@@ -367,15 +369,17 @@
         <ul
           class="md:flex space-x-4 bg-[#000] justify-between px-4 md:px-[61px] text-base pt-5 pb-6 rounded-lg box-shadow"
         >
-          <li
-            class="text-orange-500 border-b-2 md:border-b-4 border-orange-500 pb-1 ml-4"
-          >
-            All
-          </li>
-          <li>Graphic Design</li>
-          <li>Mobile App</li>
-          <li>Photography</li>
-          <li>UI/UX Design</li>
+          <a href="#">
+            <li
+              class="text-orange-500 border-b-2 md:border-b-4 border-orange-500 pb-1 ml-4"
+            >
+              All
+            </li>
+          </a>
+          <a href="#"> <li>Graphic Design</li></a>
+          <a href="#"><li>Mobile App</li></a>
+          <a href="#"> <li>Photography</li></a>
+          <a href="#"> <li>UI/UX Design</li></a>
         </ul>
       </nav>
 
@@ -391,19 +395,36 @@
 
             <div class="card_body">
               <button class="btn">
-                <i class="fa-solid fa-link h-4 w-4"></i>
+                <a
+                  href="https://nieamul-kabir-portfolio.netlify.app/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-link h-4 w-4"></i
+                ></a>
               </button>
               <h1 class="text-[20px]">Figma Mockup</h1>
               <p class="text-[#AFAFAF]">Figma mockup PSD editable</p>
             </div>
           </div>
 
-          <div class="mb-6">
+          <div class="mb-6 main_card">
             <img
               src="image/mobile.png"
               alt="Mobile image"
               class="w-full h-[447px]"
             />
+            <div class="card_body">
+              <button class="btn">
+                <a
+                  href="https://nieamul-kabir-portfolio.netlify.app/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-link h-4 w-4"></i
+                ></a>
+              </button>
+              <h1 class="text-[20px]">Figma Mockup</h1>
+              <p class="text-[#AFAFAF]">Figma mockup PSD editable</p>
+            </div>
           </div>
           <div class="">
             <img
@@ -448,142 +469,167 @@
     <section class="mx-4 md:ml-[460px] mb-[120px]">
       <h1 class="text-5xl font-bold mb-10">Blog</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="card bg-[#000000] rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog1.png"
-              alt="blog1"
-              class="w-full h-[320px]"
-            />
-          </figure>
-          <div class="card-body">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6 mb-8">
-              Posted By Daryl Smith
+        <a href="">
+          <div
+            class="card bg-[#000000] rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog1.png"
+                alt="blog1"
+                class="w-full h-[320px]"
+              />
+            </figure>
+            <div class="card-body">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6 mb-8">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="card bg-[#000000] pb-10 rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog2.png"
-              alt="blog2"
-              class="w-full h-[240px]"
-            />
-          </figure>
-          <div class="card-body w-[332px] h-[246px]">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6">
-              Posted By Daryl Smith
+        <a href="">
+          <div
+            class="card bg-[#000000] pb-10 rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog2.png"
+                alt="blog2"
+                class="w-full h-[240px]"
+              />
+            </figure>
+            <div class="card-body w-[332px] h-[246px]">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="card bg-[#000000] pb-10 rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog3.png"
-              alt="blog3"
-              class="w-full h-[320px]"
-            />
-          </figure>
-          <div class="card-body w-[332px] h-[246px]">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6">
-              Posted By Daryl Smith
+        <a href="">
+          <div
+            class="card bg-[#000000] pb-10 md:mt-[50px] rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog3.png"
+                alt="blog3"
+                class="w-full h-[320px]"
+              />
+            </figure>
+            <div class="card-body w-[332px] h-[246px]">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="card bg-[#000000] pb-10 rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog4.png"
-              alt="blog4"
-              class="w-full h-[220px]"
-            />
-          </figure>
-          <div class="card-body w-[332px] h-[246px]">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6">
-              Posted By Daryl Smith
+        <a href="">
+          <div
+            class="card bg-[#000000] pb-10 md:-mt-4 rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog4.png"
+                alt="blog4"
+                class="w-full h-[220px]"
+              />
+            </figure>
+            <div class="card-body w-[332px] h-[246px]">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="card bg-[#000000] pb-10 rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog5.png"
-              alt="blog5"
-              class="w-full h-[220px]"
-            />
-          </figure>
-          <div class="card-body w-[332px] h-[246px]">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6">
-              Posted By Daryl Smith
+        <a href="">
+          <div
+            class="card bg-[#000000] pb-10 md:mt-[50px] rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog5.png"
+                alt="blog5"
+                class="w-full h-[220px]"
+              />
+            </figure>
+            <div class="card-body w-[332px] h-[246px]">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card bg-[#000000] pb-10 rounded-none">
-          <figure>
-            <img
-              src="image/blog/blog6.png"
-              alt="blog65"
-              class="w-full h-[220px]"
-            />
-          </figure>
-          <div class="card-body w-[332px] h-[246px]">
-            <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
-            <h2 class="card-title">
-              The artist vocation is to send light into the human heart
-            </h2>
-            <p class="text-[#979797] text-sm">
-              Lorem Ipsum is simply dummy text the printing typesetting
-              industry. Lorem Ipsum has been...
-            </p>
-            <div class="divider divider-warning text-sm w-[80%] mt-6">
-              Posted By Daryl Smith
+        </a>
+
+        <a href="">
+          <div
+            class="card bg-[#000000] pb-10 md:-mt-28 rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          >
+            <figure>
+              <img
+                src="image/blog/blog6.png"
+                alt="blog65"
+                class="w-full h-[220px]"
+              />
+            </figure>
+            <div class="card-body w-[332px] h-[246px]">
+              <p class="text-xs text-[#747474]">Photography | 28 Apr 2022</p>
+              <h2 class="card-title">
+                The artist vocation is to send light into the human heart
+              </h2>
+              <p class="text-[#979797] text-sm">
+                Lorem Ipsum is simply dummy text the printing typesetting
+                industry. Lorem Ipsum has been...
+              </p>
+              <div class="divider divider-warning text-sm w-[80%] mt-6">
+                Posted By Daryl Smith
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </section>
     <!-- pricing  -->
@@ -593,7 +639,9 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Intro Plan -->
-        <div class="bg-black overflow-hidden">
+        <div
+          class="bg-black overflow-hidden transition ease-in-out delay-75 hover:-translate-y-2 hover:scale-105 duration-700"
+        >
           <div class="pt-12">
             <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">Intro</h2>
             <p class="text-5xl font-bold mb-2 ml-6">
@@ -619,7 +667,9 @@
         </div>
 
         <!-- Base Plan -->
-        <div class="bg-black overflow-hidden">
+        <div
+          class="bg-black overflow-hidden transition ease-in-out delay-75 hover:-translate-y-2 hover:scale-105 duration-700"
+        >
           <div class="pt-12">
             <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">Base</h2>
             <p class="text-5xl font-bold mb-2 ml-6">
@@ -643,7 +693,9 @@
         </div>
 
         <!-- Popular Plan -->
-        <div class="bg-black overflow-hidden">
+        <div
+          class="bg-black overflow-hidden transition ease-in-out delay-75 hover:-translate-y-2 hover:scale-105 duration-700"
+        >
           <div class="pt-12">
             <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">
               Popular
@@ -669,7 +721,9 @@
         </div>
 
         <!-- Enterprise Plan -->
-        <div class="bg-black overflow-hidden">
+        <div
+          class="bg-black overflow-hidden transition ease-in-out delay-75 hover:-translate-y-2 hover:scale-105 duration-700"
+        >
           <div class="pt-12">
             <h2 class="bg-[#F892224D] font-semibold mb-6 pricing-tag">
               Enterprise
@@ -751,7 +805,9 @@
           </label>
         </div>
 
-        <button class="form-btn w-full md:w-[680px]">Send Message</button>
+        <button class="form-btn w-full md:w-[680px]" type="submit">
+          Send Message
+        </button>
       </form>
     </section>
   </body>
